@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeadiaPlayer.PlayerMUandVDO">
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="158dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="127dp"
+        android:text="Music Player"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="167dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="241dp"
+        android:text="Video Player"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

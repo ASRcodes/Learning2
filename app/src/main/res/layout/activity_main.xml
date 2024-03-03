@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <ScrollView
+      android:layout_width="385dp"
+      android:layout_height="566dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="188dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginBottom="243dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.245">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <Button
+          android:id="@+id/webView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="WEB View" />
+
+      <Button
+          android:id="@+id/prefshared"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Shared Preference" />
+
+      <Button
+          android:id="@+id/media"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Meadia_Player" />
+
+      <Button
+          android:id="@+id/senses"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="SENSOR" />
+
+      <Button
+          android:id="@+id/services"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Services" />
+
+      <Button
+          android:id="@+id/alarm"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="AlarmService" />
+
+      <Button
+          android:id="@+id/sms"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="SMSsendNreceiver" />
+
+      <Button
+          android:id="@+id/imageupload"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="IMG Uploading" />
+
+      <Button
+          android:id="@+id/dataBase"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="DATABASES" />
+      <Button
+          android:id="@+id/roomDb"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="ROOM Data_Base" />
+
+      <Button
+          android:id="@+id/noti"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Notification View" />
+
+      <Button
+          android:id="@+id/notes"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="NOTES App" />
+
+      <Button
+          android:id="@+id/ads"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Learning_ADs" />
+
+
+    </LinearLayout>
+
+
+  </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
